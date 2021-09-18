@@ -20,4 +20,9 @@ realizadas durante la ruta. Una vez finalizada esta, el usuario tiene la posibil
 descargar los datos obtenidos hasta el momento para su posterior tratamiento o 
 visualización y otra posibilidad que tiene, es la opción de eliminar todos los datos para 
 volver a realizar nuevas mediciones.
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/75255813/133894983-715c151d-4ba9-411b-93c8-f28571312346.png)
