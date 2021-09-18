@@ -29,10 +29,11 @@ app = Flask(__name__, static_folder="export")
 
 #conexion Mysql
 
-app.config['MYSQL_HOST']= 'localhost'
+app.config['MYSQL_HOST'app.config['MYSQL_HOST']= 'localhost'
 app.config['MYSQL_USER']= 'pi'
-app.config['MYSQL_PASSWORD']= 'pelikan22'
-app.config['MYSQL_DB']= 'mpu'
+app.config['MYSQL_PASSWORD']= 'password'
+#name BD
+app.config['MYSQL_DB']= 'datos'
 mysql = MySQL(app)
 
 #settings
