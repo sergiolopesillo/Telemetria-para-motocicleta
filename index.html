@@ -1,0 +1,137 @@
+
+
+
+<DOCTYPE html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initual-scale=1.0">
+  </head>
+
+    <body>
+        <div class="container">
+            <h1 align='center'>DISPLAY CONTROL</h1>
+            <div align='center' class="row">
+                <div class="col-6">
+                    <div class="card text-white bg-dark mb-3 h-100" style="max-width: 10rem;">
+                        <div class="card-header">Rueda delantera</div>
+                        <div class="card-body">
+                            <p id="objeto1" class="card-text" >
+                                {{ objeto1 }}°C
+                            </p>
+                        </div>   
+                    </div>     
+                </div>    
+                <div class="col-6">
+                    <div class="card text-white bg-dark mb-3 h-100" style="max-width: 10rem;">
+                        <div class="card-header">Rueda trasera</div>
+                        <div class="card-body">
+                            <p id="objeto2" class="card-text">
+                                {{ objeto2 }}°C
+                            </p>    
+                        </div>   
+                    </div>     
+                </div>
+		<div class="col-6">
+                    <div class="card text-white bg-dark mb-3 h-100" style="max-width: 10rem;">
+                        <div class="card-header">Temperatra ambiente</div>
+                        <div class="card-body">
+                            <p id="ambiente" class="card-text">
+                                {{ ambiente }}°C
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    		<div class="col-6">
+                    <div class="card text-white bg-dark mb-3 h-100" style="max-width: 10rem;">
+                        <div class="card-header">Inclinacion del vehiculo</div>
+                        <div class="card-body">
+                            <p id="inclinacion"class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>    
+        </div>
+<style type="text/css">
+  .boton_1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+    background-color: #9b0e0e;
+    border-radius: 15px;
+    border: 3px double black;
+  }
+  .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+</style>
+
+
+	<div align='center'>
+	<form action='/delete', method='POST'>
+	<button class="boton_1" type='submit'>
+	Borrar datos
+	</button>
+	</form>
+	</div>
+
+<style type="text/css">
+  .boton_2{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double black;
+  }
+  .boton_2:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+</style>
+
+	<div align='center'>
+	<p>     </p>
+        </div>
+
+	<div align='center'>
+        <form action='/export', method='POST'>
+	<button class="boton_2" type='submit' href="{{url_for('download')}}" >
+        Exportar a excel
+	</button>
+	</form>
+	<a href="{{url_for('download')}}">Descargar</a>
+
+        </div>
+      
+<script>
+  	document.addEventListener("DOMContentLoaded", function(event) {
+
+    	 const getSensorReading = function() {
+      	   fetch(`http://${location.host}/getData`)  // send request to route /getData
+        	.then((resp) => resp.json())
+        	.then(function(response) {
+          	 document.getElementById('inclinacion').innerHTML =response.inclinacion.toFixed(2);
+      	  	 
+	   });
+    	}
+
+    	getSensorReading();
+    	setInterval(getSensorReading, 100);  //request for update every 1 second
+      });
+</script>
+    </body>
+</html>
