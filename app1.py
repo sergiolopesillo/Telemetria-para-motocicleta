@@ -8,7 +8,6 @@ import urllib
 import time
 import math
 import sys
-#import xlsxwriter
 import pymysql
 import pyodbc
 import io
@@ -57,7 +56,7 @@ def getData():
 	while True:
 
 	  temp_obj2 = sensor2.get_object_1()
-      temp_obj = sensor.get_object_1()
+          temp_obj = sensor.get_object_1()
 	  temp_amb = sensor2.get_ambient()
 	  inclinacion=mpu.get_gyro_data()
 	  accel_data=mpu.get_accel_data()
@@ -69,11 +68,9 @@ def getData():
 		'objeto2' : temp_obj2,
 		"inclinacion" : inclinacionX 
 	  }
-	  cur.execute('INSERT INTO datos (ruedaDel, ruedaTra, temperaturaAmb, inclinacion) VALUES({}, {}, {}, {})'.format(temp_obj, temp_obj2, temp_amb, inclinacionX))
+	  cur.execute('INSERT INTO data (ruedaDel, ruedaTra, temperaturaAmb, inclinacion) VALUES({}, {}, {}, {})'.format(temp_obj, temp_obj2, temp_amb, inclinacionX))
 	  mysql.connection.commit()
-	  cur.execute('INSERT INTO datosmpu (inclinacion,fecha) VALUES({}, %s)'.format(inclinacionX, fecha))
-      mysql.connection.commit()
- 
+	  
 	  return jsonify(templateData), 200
 
 	  bus.close()
@@ -88,9 +85,9 @@ def delete_info():
 
      if request.method=='POST':
 	cur=mysql.connection.cursor()
-	cur.execute('DELETE  FROM datos')
+	cur.execute('DELETE  FROM data')
 	mysql.connection.commit()
-	# flash('Los datos han sido borrados')
+	
 	print ('Ha sido eliminado')
 	return  redirect(url_for('index'))
 	 #return 'Ha sido eliminado'
@@ -98,12 +95,11 @@ def delete_info():
 
 @app.route('/export', methods=['POST'])
 def export():
+	
      if request.method=='POST':	
 	cursor=mysql.connection.cursor()
-	
-	cursor.execute('SELECT id, inclinacion FROM datosmpu')
-
-#	cursor.execute('SELECT id, ruedaDel, ruedaTra,temperaturaAmb, inclinacion FROM datos')
+	cursor.execute('SELECT id, inclinacion FROM data')
+	cursor.execute('SELECT id, ruedaDel, ruedaTra,temperaturaAmb, inclinacion FROM data')
 	result=cursor.fetchall()
 	with open('ruta.xls','w') as file:
 	 for row in result:
