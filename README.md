@@ -34,5 +34,10 @@ volver a realizar nuevas mediciones.
 
 
 
+En este proyecto utilizaremos una raspberry pi 3b+ como microcontrolador, aqui se muestra las conexiones del proyecto:
+
+
+![image](https://user-images.githubusercontent.com/75255813/135066754-ab6ee8e7-8bd7-445b-902e-6b92c74b12d3.png)
+
 
 
