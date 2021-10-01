@@ -13,9 +13,9 @@ conectividad. Ya que tenemos que tener en cuenta que todo este sistema ira
 perfectamente integrado en la motocicleta.
 
 El usuario solo necesitara conectarse al punto de acceso wifi creado por el 
-microcontrolador. Mediante el navegador del teléfono puede acceder a la aplicación web 
+microcontrolador. Mediante el navegador web del teléfono puedes acceder a la aplicación web 
 que le mostrara los diferentes parámetros de interés. Situando el teléfono en un simple 
-soporte en el manillar de la motocicleta, podrá disponer de esta información adicional en 
+soporte, en el manillar de la motocicleta y podrá disponer de esta información adicional en 
 todo momento.
 
 Por otro lado, el sistema guardara en una base de datos todas las mediciones 
