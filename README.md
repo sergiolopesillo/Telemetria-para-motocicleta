@@ -1,6 +1,6 @@
 Telemetria para motocicleta
 
-El trabajo consiste en sensorizar una motocicleta para poder obtener más 
+El proyecto consiste en sensorizar una motocicleta para poder obtener más 
 información que el propio panel del vehículo nos puede ofrecer. Esto lo podemos 
 conseguir con un microcontrolador y diferentes sensores, destinados a recopilar la 
 información necesaria que queremos conocer en el momento en el que estamos encima 
@@ -34,7 +34,7 @@ volver a realizar nuevas mediciones.
 
 
 
-En este proyecto utilizaremos una raspberry pi 3b+ como microcontrolador, aqui se muestra las conexiones del proyecto:
+Conexiones del proyecto:
 
 
 ![image](https://user-images.githubusercontent.com/75255813/135066754-ab6ee8e7-8bd7-445b-902e-6b92c74b12d3.png)
