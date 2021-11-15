@@ -18,7 +18,7 @@ perfectamente integrado en la motocicleta. Para la parte de la sensorización se
 
 | Hardware     | imagen |
 | --- | --- |
-| Raspberry Py 3B+ |   ![Rasp](https://user-images.githubusercontent.com/75255813/141853399-65c0aeb0-9999-45dd-acdf-27b3b3954c6d.png) |
+| Raspberry Pi 3B+ |   ![Rasp](https://user-images.githubusercontent.com/75255813/141853399-65c0aeb0-9999-45dd-acdf-27b3b3954c6d.png) |
 | Sensor temperatura (mlx90614) |   ![mlx](https://user-images.githubusercontent.com/75255813/141853963-1a0d0d3a-db5f-4a42-8906-777946e02cf9.png) |
 | Sensor acelerómetro (MPU6050) | ![MPU](https://user-images.githubusercontent.com/75255813/141854464-3cbe857d-776e-4ab6-b628-ffeb35f8ee29.png) |
 
@@ -30,9 +30,13 @@ perfectamente integrado en la motocicleta. Para la parte de la sensorización se
 Diseño del sistema
 ======
 
+
+
+
+
 Aplicación web
 ======
-El usuario solo necesitara conectarse al punto de acceso wifi creado por el 
+El usuario necesitara conectarse al punto de acceso wifi creado por el 
 microcontrolador. Mediante el navegador web del teléfono puedes acceder a la aplicación web 
 que le mostrara los diferentes parámetros de interés. Situando el teléfono en un simple 
 soporte, en el manillar de la motocicleta y podrá disponer de esta información adicional en 
