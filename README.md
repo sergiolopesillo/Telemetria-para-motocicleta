@@ -31,10 +31,9 @@ volver a realizar nuevas mediciones.
 
 
 
-<p align="center">
 ![image](https://user-images.githubusercontent.com/75255813/135065740-c75b97ff-ebdf-4e3a-ac34-99ec1c4f4b43.png)
 
-</p>
+
 
 ![image](https://user-images.githubusercontent.com/75255813/135065777-dd8619f1-99fa-4533-858e-023e53d96de8.png)
 ![image](https://user-images.githubusercontent.com/75255813/135065862-ec62c9c4-4d9a-4553-a970-85763a989f1e.png)
