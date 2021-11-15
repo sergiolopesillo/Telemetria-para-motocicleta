@@ -7,7 +7,7 @@ conseguir con un microcontrolador y diferentes sensores, destinados a recopilar 
 información necesaria que queremos conocer en el momento que estamos encima 
 de la motocicleta. 
 
-###### Hardware del sistema
+Hardware del sistema
 ======
 
 El usuario solo necesita su teléfono para 
@@ -40,12 +40,10 @@ perfectamente integrado en la motocicleta.
 
 </p>
 
-
-**## ** Diseño del sistema
+Diseño del sistema
 ======
 
-
-###### Aplicación web
+Aplicación web
 ======
 El usuario solo necesitara conectarse al punto de acceso wifi creado por el 
 microcontrolador. Mediante el navegador web del teléfono puedes acceder a la aplicación web 
