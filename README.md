@@ -18,7 +18,7 @@ perfectamente integrado en la motocicleta.
 
 Raspberry Py 3B+
 
-<p align="center">
+<p align="center" style="float: left; margin-right: 10px;">
   
 ![Rasp](https://user-images.githubusercontent.com/75255813/141853399-65c0aeb0-9999-45dd-acdf-27b3b3954c6d.png)
 
