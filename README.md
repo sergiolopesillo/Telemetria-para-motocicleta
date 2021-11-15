@@ -2,7 +2,7 @@ DISEÑO DE UN SISTEMA DE TELEMETRÍA PARA UNA MOTOCICLETA
 ======
 
 El proyecto consiste en sensorizar una motocicleta para poder obtener más 
-información que el propio panel del vehículo nos puede ofrecer. Esto lo podemos 
+información de la que podemos observar en el propio panel del vehículo. Esto lo podemos 
 conseguir con un microcontrolador y diferentes sensores, destinados a recopilar la 
 información necesaria que queremos conocer en el momento que estamos encima 
 de la motocicleta. 
