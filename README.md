@@ -1,13 +1,16 @@
-Telemetría para motocicleta
+DISEÑO DE UN SISTEMA DE TELEMETRÍA PARA UNA MOTOCICLETA
 ======
 
 El proyecto consiste en sensorizar una motocicleta para poder obtener más 
 información que el propio panel del vehículo nos puede ofrecer. Esto lo podemos 
 conseguir con un microcontrolador y diferentes sensores, destinados a recopilar la 
-información necesaria que queremos conocer en el momento en el que estamos encima 
+información necesaria que queremos conocer en el momento que estamos encima 
 de la motocicleta. 
 
-La idea principal del proyecto es que el usuario solo necesite su teléfono para 
+Hardware del sistema
+======
+
+El usuario solo necesita su teléfono para 
 poder visualizar los datos del vehículo. Para ello se ha elegido una raspberry como 
 microcontrolador, debido a su coste reducido, tamaño, capacidad computacional y 
 conectividad. Ya que tenemos que tener en cuenta que todo este sistema ira 
