@@ -16,7 +16,7 @@ microcontrolador, debido a su coste reducido, tamaño, capacidad computacional y
 conectividad. Ya que tenemos que tener en cuenta que todo este sistema ira 
 perfectamente integrado en la motocicleta.
 
-*Raspberry Py 3B+
+* Raspberry Py 3B+
 
 <p align="center">  
   
@@ -24,7 +24,7 @@ perfectamente integrado en la motocicleta.
 
 </p>
 
-*Sensor temperatura (mlx90614)
+* Sensor temperatura (mlx90614)
 
 <p align="center">
   
@@ -32,7 +32,7 @@ perfectamente integrado en la motocicleta.
 
 </p>
 
-*Sensor acelerómetro (MPU6050)
+* Sensor acelerómetro (MPU6050)
 
 <p align="center">
   
