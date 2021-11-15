@@ -1,4 +1,4 @@
-#Telemetria para motocicleta
+Telemetría para motocicleta
 ======
 
 El proyecto consiste en sensorizar una motocicleta para poder obtener más 
