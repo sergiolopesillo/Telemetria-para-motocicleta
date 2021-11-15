@@ -22,6 +22,24 @@ perfectamente integrado en la motocicleta. Para la parte de la sensorización se
 | Sensor temperatura (mlx90614) |   ![mlx](https://user-images.githubusercontent.com/75255813/141853963-1a0d0d3a-db5f-4a42-8906-777946e02cf9.png) |
 | Sensor acelerómetro (MPU6050) | ![MPU](https://user-images.githubusercontent.com/75255813/141854464-3cbe857d-776e-4ab6-b628-ffeb35f8ee29.png) |
 
+
+
+
+<table style="width: 100%; text-align: center;">
+  <tr>
+    <td style="width: 33%;"> Raspberry Py 3B+ </td>
+    <td style="width: 33%;">Sensor temperatura (mlx90614)</td>
+    <td style="width: 33%;">Sensor acelerómetro (MPU6050)</td>
+  </tr>
+  <tr>
+    <td colspan="3" style="width: 100%; padding-top: 50px;">![mlx](https://user-images.githubusercontent.com/75255813/141853963-1a0d0d3a-db5f-4a42-8906-777946e02cf9.png)</td>
+  </tr>
+  <tr>
+    <td  colspan="3" style="width: 100%; padding-top: 50px;">Pie de página</td>
+  </tr>
+</table>
+
+
 Diseño del sistema
 ======
 
