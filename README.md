@@ -16,6 +16,13 @@ microcontrolador, debido a su coste reducido, tamaño, capacidad computacional y
 conectividad. Ya que tenemos que tener en cuenta que todo este sistema ira 
 perfectamente integrado en la motocicleta.
 
+Raspberry Py 3B+
+<p align="center">
+![image](https://user-images.githubusercontent.com/75255813/141852860-e432026b-377d-449b-a2bb-60ea995f30dd.png)
+</p>
+
+
+
 El usuario solo necesitara conectarse al punto de acceso wifi creado por el 
 microcontrolador. Mediante el navegador web del teléfono puedes acceder a la aplicación web 
 que le mostrara los diferentes parámetros de interés. Situando el teléfono en un simple 
