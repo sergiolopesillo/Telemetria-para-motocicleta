@@ -18,11 +18,12 @@ perfectamente integrado en la motocicleta.
 
 Raspberry Py 3B+
 
-<p  style="float: left; margin-right: 5px;">
-  
+<p>  
 ![Rasp](https://user-images.githubusercontent.com/75255813/141853399-65c0aeb0-9999-45dd-acdf-27b3b3954c6d.png)
-
 </p>
+Sensor temperatura (mlx90614)
+![image](https://user-images.githubusercontent.com/75255813/141853831-69ec8de1-2a74-4a1d-822c-4f137a3deb27.png)
+
 
 
 
