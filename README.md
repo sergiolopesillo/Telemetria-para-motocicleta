@@ -21,6 +21,7 @@ Raspberry Py 3B+
 <p >  
 ![Rasp](https://user-images.githubusercontent.com/75255813/141853399-65c0aeb0-9999-45dd-acdf-27b3b3954c6d.png)
 </p>
+
 Sensor temperatura (mlx90614)
 
 <p>
