@@ -1,6 +1,7 @@
 from flask import Flask,send_file, jsonify,render_template, request, redirect, url_for, flash, Response
 from smbus2 import SMBus
 from mlx90614 import MLX90614
+from mpu6050 import mpu6050 
 from flask_mysqldb import MySQL
 from selenium import webdriver
 import requests
@@ -13,7 +14,7 @@ import pyodbc
 import io
 import csv
 import datetime
-from mpu6050 import mpu6050 
+
 
 
 
@@ -54,13 +55,13 @@ def getData():
 	cur = mysql.connection.cursor()
 
 	while True:
-
 	  temp_obj2 = sensor2.get_object_1()
           temp_obj = sensor.get_object_1()
 	  temp_amb = sensor2.get_ambient()
 	  inclinacion=mpu.get_gyro_data()
 	  accel_data=mpu.get_accel_data()
-
+	
+	#Conversion a grados
 	  inclinacionX=round(math.atan(accel_data['x']/math.sqrt(math.pow(accel_data['y'],2)+math.pow(accel_data['z'],2)))*(180.0/3.14))
 	  templateData= {
 		'objeto1': temp_obj,
@@ -74,8 +75,7 @@ def getData():
 	  return jsonify(templateData), 200
 
 	  bus.close()
-
-
+	  bus2.close()
 
 
 
@@ -84,15 +84,19 @@ def getData():
 def delete_info():
 
      if request.method=='POST':
+	
 	cur=mysql.connection.cursor()
 	cur.execute('DELETE  FROM data')
 	mysql.connection.commit()
 	
+	remove('/home/pi/Download/ruta.xls')
 	print ('Ha sido eliminado')
-	return  redirect(url_for('index'))
-	 #return 'Ha sido eliminado'
+	
+     return redirect(url_for('index'))
 
+	
 
+#Metodo para descargar los datos obtenidos hasta el momento
 @app.route('/export', methods=['POST'])
 def export():
 	
@@ -105,18 +109,13 @@ def export():
 	 for row in result:
 	   csv.writer(file).writerow(row)
 	
-
-     print ('Excel generado')
-     cursor.close() 
+    	print ('Excel generado')
+     	cursor.close() 
   	
-     easygui.msgbox("Documento generado", title="AVISO");
-
-     return  redirect(url_for('index'))
-
-@app.route('/export')
-def download():
-	path= "ruta.xls"
-        return send_file(path,as_attachment=True)
+  
+	 path='ruta.xls'
+	 archivo=send_file(path,as_attachment=True)
+      return archivo
 
 
 if __name__ == '__main__':
