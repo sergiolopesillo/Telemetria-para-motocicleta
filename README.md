@@ -14,7 +14,7 @@ Hardware del sistema
 ======
 
 El sistema esta formado por una Raspberry pi, debido a su coste reducido, tamaño, capacidad computacional y 
-conectividad. En la parte de la sensorización se ha seleccionado el mlx90614 para la medición de la temperatura de los neumáticos y la temperatura ambiente, medimos la inclinación del vehiculo con la MPU6050. Por ultimo utilizaremos un regulador de voltaje LM2596 debido a que el sistema eléctrico trabaja a 12V.
+conectividad. En la parte de la sensorización se ha seleccionado el mlx90614 para la medición de la temperatura de los neumáticos y la temperatura ambiente, medimos la inclinación del vehículo con la MPU6050. Por ultimo utilizaremos un regulador de voltaje LM2596 debido a que el sistema eléctrico trabaja a 12V.
 
 
 
