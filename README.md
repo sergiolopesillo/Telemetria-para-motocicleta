@@ -14,13 +14,17 @@ Hardware del sistema
 ======
 
 El sistema esta formado por una Raspberry pi, debido a su coste reducido, tamaño, capacidad computacional y 
-conectividad. En la parte de la sensorización se ha seleccionado el mlx90614 para la medición de la temperatura de los neumáticos y la temperatura ambiente, medimos la inclinación del vehiculo con la MPU6050.
+conectividad. En la parte de la sensorización se ha seleccionado el mlx90614 para la medición de la temperatura de los neumáticos y la temperatura ambiente, medimos la inclinación del vehiculo con la MPU6050. Por ultimo utilizaremos un regulador de voltaje LM2596 debido a que el sistema eléctrico trabaja a 12V.
+
+
 
 | Hardware     | imagen |
 | --- | --- |
 | Raspberry Pi 3B+ |   ![Rasp](https://user-images.githubusercontent.com/75255813/141853399-65c0aeb0-9999-45dd-acdf-27b3b3954c6d.png) |
 | Sensor temperatura (mlx90614) |   ![mlx](https://user-images.githubusercontent.com/75255813/141853963-1a0d0d3a-db5f-4a42-8906-777946e02cf9.png) |
 | Sensor acelerómetro (MPU6050) | ![MPU](https://user-images.githubusercontent.com/75255813/141854464-3cbe857d-776e-4ab6-b628-ffeb35f8ee29.png) |
+| Regulador de voltaje (LM2596) | ![image](https://user-images.githubusercontent.com/75255813/141868597-ad1569f9-6986-46ab-b035-e6cbab9a193c.png) |
+
 
 
 
