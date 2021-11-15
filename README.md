@@ -17,8 +17,12 @@ conectividad. Ya que tenemos que tener en cuenta que todo este sistema ira
 perfectamente integrado en la motocicleta.
 
 Raspberry Py 3B+
+
 <p align="center">
-![image](https://user-images.githubusercontent.com/75255813/141852860-e432026b-377d-449b-a2bb-60ea995f30dd.png)
+  <img src="![image](https://user-images.githubusercontent.com/75255813/141852860-e432026b-377d-449b-a2bb-60ea995f30dd.png)"
+       
+        style="float: left; margin-right: 10px;" />
+
 </p>
 
 
