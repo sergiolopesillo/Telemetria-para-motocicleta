@@ -10,11 +10,9 @@ de la motocicleta.
 Hardware del sistema
 ======
 
-El usuario solo necesita su teléfono para 
-poder visualizar los datos del vehículo. Para ello se ha elegido una raspberry como 
-microcontrolador, debido a su coste reducido, tamaño, capacidad computacional y 
-conectividad. Ya que tenemos que tener en cuenta que todo este sistema ira 
-perfectamente integrado en la motocicleta. Para la parte de la sensorización se ha seleccionado el mlx90614 para la medición de la temperatura de los neumáticos y la temperatura ambiente, medimos la inclinación del vehiculo con la MPU6050.
+El sistema esta formado por una Raspberry pi, debido a su coste reducido, tamaño, capacidad computacional y 
+conectividad. En la parte de la sensorización se ha seleccionado el mlx90614 para la medición de la temperatura de los neumáticos y la temperatura ambiente, medimos la inclinación del vehiculo con la MPU6050. Ya que tenemos que tener en cuenta que todo este sistema ira 
+perfectamente integrado en la motocicleta
 
 | Hardware     | imagen |
 | --- | --- |
