@@ -33,6 +33,7 @@ conectividad. En la parte de la sensorización se ha seleccionado el mlx90614 pa
 
 Diseño del sistema
 ======
+En la siguiente imagen 
 
 
 ![image](https://user-images.githubusercontent.com/75255813/135065740-c75b97ff-ebdf-4e3a-ac34-99ec1c4f4b43.png)
