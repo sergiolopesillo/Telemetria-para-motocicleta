@@ -19,7 +19,7 @@ perfectamente integrado en la motocicleta.
 Raspberry Py 3B+
 
 <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/75255813/141852860-e432026b-377d-449b-a2bb-60ea995f30dd.png)"
+  <img src="![Rasp](https://user-images.githubusercontent.com/75255813/141853374-d4106e70-7dd3-44f6-8992-dd317d6285b0.png)"
        
         style="float: left; margin-right: 10px;" />
 
