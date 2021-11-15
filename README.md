@@ -22,19 +22,6 @@ Raspberry Py 3B+
 ![Rasp](https://user-images.githubusercontent.com/75255813/141853399-65c0aeb0-9999-45dd-acdf-27b3b3954c6d.png)
 </p>
 
-Sensor temperatura (mlx90614)
-
-<p>
-  ![mlx](https://user-images.githubusercontent.com/75255813/141853963-1a0d0d3a-db5f-4a42-8906-777946e02cf9.png)
-
-</p>
-
-Sensor acelerómetro (MPU6050)
-
-<p>
-  ![mlx](https://user-images.githubusercontent.com/75255813/141853963-1a0d0d3a-db5f-4a42-8906-777946e02cf9.png)
-
-</p>
 
 
 El usuario solo necesitara conectarse al punto de acceso wifi creado por el 
