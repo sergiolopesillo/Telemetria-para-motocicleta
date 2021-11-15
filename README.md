@@ -27,6 +27,7 @@ Raspberry Py 3B+
 Sensor temperatura (mlx90614)
 
 <p align="center">
+  
   ![mlx](https://user-images.githubusercontent.com/75255813/141853963-1a0d0d3a-db5f-4a42-8906-777946e02cf9.png)
 
 </p>
@@ -34,7 +35,8 @@ Sensor temperatura (mlx90614)
 Sensor acelerómetro (MPU6050)
 
 <p align="center">
-  ![mlx](https://user-images.githubusercontent.com/75255813/141853963-1a0d0d3a-db5f-4a42-8906-777946e02cf9.png)
+  
+![MPU](https://user-images.githubusercontent.com/75255813/141854464-3cbe857d-776e-4ab6-b628-ffeb35f8ee29.png)
 
 </p>
 
