@@ -52,6 +52,8 @@
 
             </div>    
         </div>
+	    
+	    
 <style type="text/css">
   .boton_1{
     text-decoration: none;
@@ -72,15 +74,23 @@
     text-decoration: none;
   }
 </style>
+	    
+<script>
+function alerta(){
+ alert(="AVISO!, va a borrar los datos ");
+} 
+</script>
 
 
 	<div align='center'>
-	<form action='/delete', method='POST'>
-	<button class="boton_1" type='submit'>
-	Borrar datos
-	</button>
-	</form>
-	</div>
+		
+ 		<form action='/delete', method='POST'>
+		 <button oneclick="alerta()" class="boton_1" type='submit'>
+ 		  Borrar datos
+ 		 </button>
+ 		</form>
+		
+ 	</div>
 
 <style type="text/css">
   .boton_2{
@@ -102,17 +112,25 @@
     text-decoration: none;
   }
 </style>
+	    
+<script>
+	
+	function redireccion(){
+	 window.location.href="192.168.1.8:3000";
+	} 
+	
+</script>
 
 	<div align='center'>
 	<p>     </p>
         </div>
 
 	<div align='center'>
-        <form action='/export', method='POST'>
-	<button class="boton_2" type='submit' href="{{url_for('download')}}" >
-        Exportar a excel
-	</button>
-	</form>
+        	<form action='/export', method='POST'>
+			<button class="boton_2" type='submit' href="{{url_for('download')}}" >
+       			 Exportar a excel
+			</button>
+		</form>
 	<a href="{{url_for('download')}}">Descargar</a>
 
         </div>
@@ -125,6 +143,10 @@
         	.then((resp) => resp.json())
         	.then(function(response) {
           	 document.getElementById('inclinacion').innerHTML =response.inclinacion.toFixed(2);
+		 document.getElementById('objeto1').innerHTML =response.objeto1.toFixed(2);
+ 		 document.getElementById('objeto2').innerHTML =response.objeto2.toFixed(2);
+ 		 document.getElementById('ambiente').innerHTML=response.ambiente.toFixed(2);
+
       	  	 
 	   });
     	}
