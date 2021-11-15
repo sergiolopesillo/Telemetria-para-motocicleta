@@ -31,6 +31,10 @@ Diseño del sistema
 ======
 
 
+![image](https://user-images.githubusercontent.com/75255813/135065740-c75b97ff-ebdf-4e3a-ac34-99ec1c4f4b43.png)
+
+![image](https://user-images.githubusercontent.com/75255813/135066754-ab6ee8e7-8bd7-445b-902e-6b92c74b12d3.png)
+
 
 
 
@@ -60,11 +64,9 @@ volver a realizar nuevas mediciones.
 
 
 
-Conexiones del proyecto
-======
 
 
-![image](https://user-images.githubusercontent.com/75255813/135066754-ab6ee8e7-8bd7-445b-902e-6b92c74b12d3.png)
+
 
 
 
