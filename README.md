@@ -1,18 +1,20 @@
 DISEÑO DE UN SISTEMA DE TELEMETRÍA PARA UNA MOTOCICLETA
 ======
 
+Introducción
+======
+
 El proyecto consiste en sensorizar una motocicleta para poder obtener más 
 información de la que podemos observar en el propio panel del vehículo. Esto lo podemos 
 conseguir con un microcontrolador y diferentes sensores, destinados a recopilar la 
 información necesaria que queremos conocer en el momento que estamos encima 
-de la motocicleta mediante nuestro telefono movil. 
+de la motocicleta. Estos datos se visualizaran mediante nuestro teléfono móvil.
 
 Hardware del sistema
 ======
 
 El sistema esta formado por una Raspberry pi, debido a su coste reducido, tamaño, capacidad computacional y 
-conectividad. En la parte de la sensorización se ha seleccionado el mlx90614 para la medición de la temperatura de los neumáticos y la temperatura ambiente, medimos la inclinación del vehiculo con la MPU6050. Ya que tenemos que tener en cuenta que todo este sistema ira 
-perfectamente integrado en la motocicleta
+conectividad. En la parte de la sensorización se ha seleccionado el mlx90614 para la medición de la temperatura de los neumáticos y la temperatura ambiente, medimos la inclinación del vehiculo con la MPU6050.
 
 | Hardware     | imagen |
 | --- | --- |
