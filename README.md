@@ -47,11 +47,7 @@ Aquí podemos observar de forma sencilla las diferentes conexiones de los elemen
 
 Aplicación web
 ======
-El usuario necesitara conectarse al punto de acceso wifi creado por el 
-microcontrolador. Mediante el navegador web del teléfono puedes acceder a la aplicación web 
-que le mostrara los diferentes parámetros de interés. Situando el teléfono en un simple 
-soporte, en el manillar de la motocicleta y podrá disponer de esta información adicional en 
-todo momento.
+El usuario necesitara conectarse con su teléfono móvil al punto de acceso wifi creado por el microcontrolador. Mediante el navegador web del teléfono puede acceder a la aplicación que le mostrara los diferentes parámetros de interés. Situando el teléfono en el manillar de la motocicleta mediante un soporte, podrá disponer de esta información adicional en todo momento.
 
 
 ![image](https://user-images.githubusercontent.com/75255813/135065777-dd8619f1-99fa-4533-858e-023e53d96de8.png)
