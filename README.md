@@ -33,7 +33,7 @@ conectividad. En la parte de la sensorización se ha seleccionado el mlx90614 pa
 
 Diseño del sistema
 ======
-En la siguiente imagen 
+En la siguiente imagen podemos observar donde se situarían los diferentes componentes. En la zona del guardabarros delantero y trasero irían los sensores de temperatura y en la parte inferior del asiento se localizarían el microcontrolador, el regulador de voltaje y el sensor de inclinación. Este sistema iría conectado al encendido del vehículo para que no consuma energía directamente de la batería.
 
 
 ![image](https://user-images.githubusercontent.com/75255813/135065740-c75b97ff-ebdf-4e3a-ac34-99ec1c4f4b43.png)
