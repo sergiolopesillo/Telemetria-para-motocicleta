@@ -58,7 +58,6 @@ def getData():
 	  temp_obj2 = sensor2.get_object_1()
           temp_obj = sensor.get_object_1()
 	  temp_amb = sensor2.get_ambient()
-	  inclinacion=mpu.get_gyro_data()
 	  accel_data=mpu.get_accel_data()
 	
 	#Conversion a grados
