@@ -44,7 +44,7 @@ En la siguiente imagen podemos observar donde se situarían los diferentes compo
 
 ![image](https://user-images.githubusercontent.com/75255813/135065740-c75b97ff-ebdf-4e3a-ac34-99ec1c4f4b43.png)
 
-Aquí podemos observar de forma sencilla las diferentes conexiones de los elementos que componen proyecto. Uno de los sensores mlx90614 y la MPU6050 irán conectados al mismo bus I2C para la adquisición de los datos, debido a que tienen diferentes direcciones de memoria. Mientras que el segundo mlx90614 ira conectado al GPIO17 y al GPIO27 creando en esos dos pines un bus I2C diferente, para que no exista ninguna incompatibilidad.
+Aquí podemos observar de forma sencilla las diferentes conexiones de los elementos que componen proyecto. Uno de los sensores mlx90614 y la MPU6050 irán conectados al mismo bus I2C para la adquisición de los datos. Mientras que el segundo mlx90614 ira conectado al GPIO17 y al GPIO27 creando en esos dos pines un bus I2C diferente, para que no exista ningún conflicto con las direcciones de los sensores.
 
 ![image](https://user-images.githubusercontent.com/75255813/135066754-ab6ee8e7-8bd7-445b-902e-6b92c74b12d3.png)
 
