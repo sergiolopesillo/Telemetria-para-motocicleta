@@ -2,10 +2,10 @@ DISEÑO DE UN SISTEMA DE TELEMETRÍA PARA UNA MOTOCICLETA
 ======
 
 ## Tabla de contenido
-- [Introducción](#introducción).
-- [Hardware del sistema](#Hardware-del-sistema).
-- [Diseño del sistema](#Diseño-del-sistema).
-- [Aplicación web](#Aplicación-web).
+- [Introducción](#introducción)
+- [Hardware del sistema](#Hardware-del-sistema)
+- [Diseño del sistema](#Diseño-del-sistema)
+- [Aplicación web](#Aplicación-web)
 
 Introducción
 ======
