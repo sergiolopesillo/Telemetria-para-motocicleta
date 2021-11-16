@@ -68,6 +68,7 @@ def getData():
 		'objeto2' : temp_obj2,
 		"inclinacion" : inclinacionX 
 	  }
+	
 	  cur.execute('INSERT INTO data (ruedaDel, ruedaTra, temperaturaAmb, inclinacion) VALUES({}, {}, {}, {})'.format(temp_obj, temp_obj2, temp_amb, inclinacionX))
 	  mysql.connection.commit()
 	  
@@ -104,6 +105,7 @@ def export():
 	cursor.execute('SELECT id, inclinacion FROM data')
 	cursor.execute('SELECT id, ruedaDel, ruedaTra,temperaturaAmb, inclinacion FROM data')
 	result=cursor.fetchall()
+	
 	with open('ruta.xls','w') as file:
 	 for row in result:
 	   csv.writer(file).writerow(row)
