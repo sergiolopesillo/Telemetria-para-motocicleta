@@ -51,13 +51,15 @@ que le mostrara los diferentes parámetros de interés. Situando el teléfono en
 soporte, en el manillar de la motocicleta y podrá disponer de esta información adicional en 
 todo momento.
 
-Por otro lado, el sistema guardara en una base de datos todas las mediciones 
+
+![image](https://user-images.githubusercontent.com/75255813/135065777-dd8619f1-99fa-4533-858e-023e53d96de8.png)
+
+Por otro lado, el sistema guardará en una base de datos todas las mediciones 
 realizadas durante la ruta. Una vez finalizada esta, el usuario tiene la posibilidad de 
 descargar los datos obtenidos hasta el momento para su posterior tratamiento o 
 visualización y otra posibilidad que tiene, es la opción de eliminar todos los datos para 
 volver a realizar nuevas mediciones.
 
-![image](https://user-images.githubusercontent.com/75255813/135065777-dd8619f1-99fa-4533-858e-023e53d96de8.png)
 ![image](https://user-images.githubusercontent.com/75255813/135065862-ec62c9c4-4d9a-4553-a970-85763a989f1e.png)
 
 
